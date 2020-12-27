@@ -8,7 +8,7 @@ import com.nivaldoSerafim.cursomc.domain.Cidade;
 @Repository
 public interface CidadeRepository extends JpaRepository<Cidade, Integer> {
 
-	Cidade findAll(Integer cidadeId);
+	Cidade findOne(Integer cidadeId);
 
-		
+	//Cidade findAll(Integer cidadeId);		
 }
