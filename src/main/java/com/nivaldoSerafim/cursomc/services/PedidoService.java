@@ -50,5 +50,6 @@ public class PedidoService {
 		for(ItemPedido ip : obj.getItens()) {
 			ip.setDesconto(0.0);			
 		}
+		return obj;
 	}
 }
